@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ola Mundo
+title: Olá Mundo
 published: true
 ---
 
