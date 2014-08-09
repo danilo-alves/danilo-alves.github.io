@@ -131,36 +131,26 @@ appspot.com
 **Questões - Capítulo 3**
 
 
-  1. Para que serve o Virtualenv?
+**1. Para que serve o Virtualenv?**
+Virtualenv permite que se crie um ambiente de dependências isolado para cada projeto.
+  
+**2. Qual a função do arquivo convention.py?**
+Tratar as requisições HTTP POST, GET e PUT..
+  
+**3. Por que é necessário incluir bibliotecas através de código no arquivo convention.py?**
+Porque o GoogleAppEngine não consegue instalar as bibliotecas por meio do virtualend ou o pip.
+  
+**4. Como ficaria a declaração de uma função para tratar a execução de chamada no path /usuario/salvar?nome=Renzo&idade=31?**
+Criar o método def salvar(nome, idade) em usuario.py.
 
-  2. 
-    1. Virtualenv permite que se crie um ambiente de dependências isolado para cada projeto.
-  3. Qual a função do arquivo convention.py?
-
-  4. 
-    1. Tratar as requisições HTTP POST, GET e PUT..
-  5. Por que é necessário incluir bibliotecas através de código no arquivo convention.py?
-
-  6. 
-    1. Porque o GoogleAppEngine não consegue instalar as bibliotecas por meio do virtualend ou o pip.
-  7. Como ficaria a declaração de uma função para tratar a execução de chamada no path /usuario/salvar?nome=Renzo&idade=31?
-
-  8. 
-    1. Criar o método def salvar(nome, idade) em usuario.py.
-
-  9. Como se diferenciam parâmetros recebidos por injeção de dependência dos recebidos via requisição HTTP?
-
-  10. 
-    1. Se diferenciam por conter um “_” antecedendo o nome da variável (Ex: _rest, _handler)
-  11. Qual deve ser a posição de parâmetros recebidos via injeção de dependência?
-
-  12. 
-    1. Devem ser os primeiros a serem declarados seguidos pelos demais parâmetros.
-  13. Qual deve ser o parâmetro declarado quando for necessário fazer um redirecionamento?
-
-  14. 
-    1. _handler
-  15. Qual o script e função devem ser utilizados para se calcular paths com base em uma função?
-
-  16. 
-    1. Deve ser usado o script router.py com base na função to_path().
+**5. Como se diferenciam parâmetros recebidos por injeção de dependência dos recebidos via requisição HTTP?**
+Se diferenciam por conter um “_” antecedendo o nome da variável (Ex: _rest, _handler)
+  
+**6. Qual deve ser a posição de parâmetros recebidos via injeção de dependência?**
+Devem ser os primeiros a serem declarados seguidos pelos demais parâmetros.
+  
+**7. Qual deve ser o parâmetro declarado quando for necessário fazer um redirecionamento?**
+_handler
+  
+**8. Qual o script e função devem ser utilizados para se calcular paths com base em uma função?**
+Deve ser usado o script router.py com base na função to_path().
