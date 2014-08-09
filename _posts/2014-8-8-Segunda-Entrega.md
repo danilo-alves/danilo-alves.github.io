@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Segunda Entrega
+title: "Programação em Scripts - Segunda Entrega"
 published: true
 ---
 
