@@ -81,35 +81,50 @@ appspot.com
 
 **Questões - Capitulo 2**
 
-  **1. Qual o nome do arquivo de configuração do Google App Engine?**
+
+**1. Qual o nome do arquivo de configuração do Google App Engine?**
     app.yaml
-  **2. Para que serve o item application do arquivo de configuração?**
+
+**2. Para que serve o item application do arquivo de configuração?**
     O application serve para identificar a aplicação.
-  **3. Para que serve o item version do arquivo de configuração?**
+
+**3. Para que serve o item version do arquivo de configuração?**
     Indica qual é a versão da aplicação.
-  **4. Qual endereço deve ser utilizado para acessar uma aplicação com id foo e versão 35?**
+
+**4. Qual endereço deve ser utilizado para acessar uma aplicação com id foo e versão 35?**
     35.foo.appspot.com ou 35-dot-foo.appspot.com
-  **5. Para que serve a seção libraries do arquivo de configuração?**
+
+**5. Para que serve a seção libraries do arquivo de configuração?**
     Define as bibliotecas necessárias
-  **6. Para que serve a seção handlers do arquivo de configuração?**
+
+**6. Para que serve a seção handlers do arquivo de configuração?**
     Define qual código a ser executado de acordo com a url da requisição.
-  **7. Como são definidos os paths mapeados no arquivo de configuração?**
+
+**7. Como são definidos os paths mapeados no arquivo de configuração?**
     Com expressões regulares.
-  **8. Por que é necessário mapear RequestHandlers nos scripts Python?**
+
+**8. Por que é necessário mapear RequestHandlers nos scripts Python?**
     Para permitir a definição de várias classes em um único arquivo.
-  **9. Para que serve a classe RequestHandler?**
+
+**9. Para que serve a classe RequestHandler?**
     Para definir qual classe irá tratar de uma requisição HTTP.
-  **10. Como se relacionam os métodos da classe RequestHandler e os do protocolo HTTP?**
+
+**10. Como se relacionam os métodos da classe RequestHandler e os do protocolo HTTP?**
     Os métodos da RequestHandler servem para processar as requisições HTTP.
-  **11. Para que serve o objeto Request?**
+
+**11. Para que serve o objeto Request?**
     Para ter acesso as informações e parâmetros enviados por uma requisição HTTP.
-  **12. Como se obtém os valores de parâmetros enviados via query string em uma chamada HTTP do tipo GET?**
+
+**12. Como se obtém os valores de parâmetros enviados via query string em uma chamada HTTP do tipo GET?**
     Por meio do método self.request.get('<nome do parametro>’).
-  **13. Para que serve o objeto Response?**
+
+**13. Para que serve o objeto Response?**
     Serve para o envio de dados.
-  **14. Qual o método do objeto Response serve para enviar strings?**
+
+**14. Qual o método do objeto Response serve para enviar strings?**
     É o método se;f.response.write()
-  **15. Como é possível enviar uma resposta para redirecionamento?**
+
+**15. Como é possível enviar uma resposta para redirecionamento?**
     Utilizando o método redirect da classe RequestHandler passando a url desejada como parametro para o redirecionamento.
 
 
