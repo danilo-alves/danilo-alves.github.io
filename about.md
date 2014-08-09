@@ -1,14 +1,14 @@
 ---
 layout: page
-title: About
+title: Sobre
 ---
 
-Some information about you!
+Danilo Alves, nascido em Campos do Jordão e atualmente morando em São José dos Campos. Estudante de Análise e Desenvolvimento de Sistemas na Fatec de São José dos Campos e atualmente trabalhando como Técnico em Informática.
 
-### More Information
+### Mais informações
 
-A place to include any other types of information that you'd like to include about yourself. 
+Desenvolvi alguns aplicativos para iOS [](Campos360) e Android (RestoMenu) além de ser entusiasta no desenvolvimento da plataforma Arduino.
 
-### Contact me
+### Contato
 
-[email@domain.com](mailto:email@domain.com)
+[daniloa47@gmail.com](daniloa47@gmail.com)
