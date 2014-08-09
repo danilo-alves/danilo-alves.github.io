@@ -51,30 +51,30 @@ O vídeo demonstra a instalação do IDE (IDE, do inglês Integrated Developmen
 
 
 
-1. Quais as duas principais versões atuais do interpretador Python?
+**1. Quais as duas principais versões atuais do interpretador Python?**
 São as versões 2.7 e 3.4.
 
 
-2. Qual versão de Python é suportada atualmente pelo App Engine?
+**2. Qual versão de Python é suportada atualmente pelo App Engine**?
 A versão 2.7 é a atualmente suportada.
 
-3. Para que serve o SDK do App Engine?
+**3. Para que serve o SDK do App Engine?**
 Fornece as ferramentas necessárias para inicializar o servidor localmente, interagir com o banco de dados e etc.
 
 
-4. Qual a vantagem de colocar  ferramentas instaladas no path do Sistema Operacional? 
+**4. Qual a vantagem de colocar  ferramentas instaladas no path do Sistema Operacional?** 
 Dessa forma o acesso a tais ferramentas fica mais fácil para o usuário e outros programas.
 
 
-5.O que é e para que serve uma IDE?
+**5.O que é e para que serve uma IDE?**
 Ambiente Integrado de Desenvolvimento (Integrated Development Environment) é um conjunto de ferramentas integradas a fim de facilitar a atividade de desenvolvimento.
 
 
-6. Como se chama o arquivo de configuração de uma aplicação App Engine?
+**6. Como se chama o arquivo de configuração de uma aplicação App Engi**ne?
 O arquivo se chama app.yaml.
 
 
- 7. Qual o domínio padrão para acessar aplicações App Engine na internet?
+**7. Qual o domínio padrão para acessar aplicações App Engine na inter**net?
 appspot.com
 
 
