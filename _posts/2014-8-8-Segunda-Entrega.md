@@ -4,9 +4,7 @@ title: Segunda Entrega
 published: true
 ---
 
-
-
-Aula 01 - Virtualenv em Unix
+**Aula 01 - Virtualenv em Unix**
 
 
 O vídeo demonstra a instalação da biblioteca Python Virtualenv que requer a versão 2.7 do Python. A instalação pode ser feita das seguintes formas:
@@ -19,7 +17,7 @@ O vídeo demonstra a instalação da biblioteca Python Virtualenv que requer a v
 
 
 
-Aula 02 - Tekton no Linux
+**Aula 02 - Tekton no Linux**
 
 Este vídeo demonstra a instalação do framework Tekton juntamente com a instalação do Google AppEngine. Alguns passos destacados foram:
 
@@ -34,7 +32,7 @@ Este vídeo demonstra a instalação do framework Tekton juntamente com a instal
 
 
 
-Aula 03 - Pycharm e Linux
+**Aula 03 - Pycharm e Linux**
 
 
 O vídeo demonstra a instalação do IDE (IDE, do inglês Integrated Development Enviroment) Pycharm. Os passos destacados são:
@@ -49,17 +47,16 @@ O vídeo demonstra a instalação do IDE (IDE, do inglês Integrated Developmen
 
 
 
-Questões - Capitulo 1
+**Questões - Capitulo**1
 
 
 
-  1. Quais as duas principais versões atuais do interpretador Python?
-  2. São as versões 2.7 e 3.4.
-
+1. Quais as duas principais versões atuais do interpretador Python?
+São as versões 2.7 e 3.4.
 
 
 2. Qual versão de Python é suportada atualmente pelo App Engine?
-     A versão 2.7 é a atualmente suportada.
+A versão 2.7 é a atualmente suportada.
 
 3. Para que serve o SDK do App Engine?
 Fornece as ferramentas necessárias para inicializar o servidor localmente, interagir com o banco de dados e etc.
@@ -82,61 +79,41 @@ appspot.com
 
 
 
-Questões - Capitulo 2
+**Questões - Capitulo 2**
 
   1. Qual o nome do arquivo de configuração do Google App Engine?
-  2. 
     1. app.yaml
   3. Para que serve o item application do arquivo de configuração?
-  4. 
     1. O application serve para identificar a aplicação.
   5. Para que serve o item version do arquivo de configuração?
-  6. 
     1. Indica qual é a versão da aplicação.
   7. Qual endereço deve ser utilizado para acessar uma aplicação com id foo e versão 35?
-  8. 
     1. 35.foo.appspot.com ou 35-dot-foo.appspot.com
   9. Para que serve a seção libraries do arquivo de configuração?
-  10. 
     1. Define as bibliotecas necessárias
   11. Para que serve a seção handlers do arquivo de configuração?
-  12. 
     1. Define qual código a ser executado de acordo com a url da requisição.
   13. Como são definidos os paths mapeados no arquivo de configuração?
-  14. 
     1. Com expressões regulares.
   15. Por que é necessário mapear RequestHandlers nos scripts Python?
-
-  16. 
     1. Para permitir a definição de várias classes em um único arquivo.
   17. Para que serve a classe RequestHandler?
-
-  18. 
     1. Para definir qual classe irá tratar de uma requisição HTTP.
   19. Como se relacionam os métodos da classe RequestHandler e os do protocolo HTTP?
-
-  20. 
     1. Os métodos da RequestHandler servem para processar as requisições HTTP.
   21. Para que serve o objeto Request?
-
-  22. 
     1. Para ter acesso as informações e parâmetros enviados por uma requisição HTTP.
   23. Como se obtém os valores de parâmetros enviados via query string em uma chamada HTTP do tipo GET?
-  24. 
     1. Por meio do método self.request.get('<nome do parametro>’).
   25. Para que serve o objeto Response?
-
-  26. 
     1. Serve para o envio de dados.
   27. Qual o método do objeto Response serve para enviar strings?
-  28. 
     1. É o método se;f.response.write()
   29. Como é possível enviar uma resposta para redirecionamento?
-  30. 
     1. Utilizando o método redirect da classe RequestHandler passando a url desejada como parametro para o redirecionamento.
 
 
-Questões - Capitulo 3
+**Questões - Capitulo **
 
 
   1. Para que serve o Virtualenv?
