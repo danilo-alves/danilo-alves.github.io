@@ -74,7 +74,7 @@ Ambiente Integrado de Desenvolvimento (Integrated Development Environment) é um
 O arquivo se chama app.yaml.
 
 
-**7. Qual o domínio padrão para acessar aplicações App Engine na inter**net?
+**7. Qual o domínio padrão para acessar aplicações App Engine na internet?**
 appspot.com
 
 
