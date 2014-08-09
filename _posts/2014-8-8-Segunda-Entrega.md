@@ -113,7 +113,7 @@ appspot.com
     1. Utilizando o método redirect da classe RequestHandler passando a url desejada como parametro para o redirecionamento.
 
 
-**Questões - Capitulo **
+**Questões - Capitul o3**
 
 
   1. Para que serve o Virtualenv?
