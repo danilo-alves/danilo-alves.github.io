@@ -7,8 +7,8 @@ Danilo Alves, nascido em Campos do Jordão e atualmente morando em São José do
 
 ### Mais informações
 
-Desenvolvi alguns aplicativos para iOS [](Campos360) e Android (RestoMenu) além de ser entusiasta no desenvolvimento da plataforma Arduino.
+Desenvolvi alguns aplicativos para iOS [Campos360](https://itunes.apple.com/us/app/campos-do-jordao/id500652521?mt=8) e Android [RestoMenu](https://itunes.apple.com/us/app/restomenu!-campos-do-jordao/id894151721?mt=8) além de ser entusiasta no desenvolvimento da plataforma Arduino.
 
 ### Contato
 
-[daniloa47@gmail.com](daniloa47@gmail.com)
+[daniloa47@gmail.com](mailto:daniloa47@gmail.com)
