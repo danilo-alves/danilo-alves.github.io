@@ -30,4 +30,8 @@ Para evitar que parâmetros sejam enviados diretamente na URL deve ser criado um
 
 **Aula 12.1 - Segurança - Permissões - App Engine e Python (continuação Aula 12)**
 
-Neste vídeo é abordado o uso do decorator para a definição de permissões à diferentes áreas do site. Com "@login_not_required" define-se que determinada área não irá pedir a autenticação do usuário. Com o decorator @permissions() a restrição é feita somente a quem não pertence ao grupo especificado como parâmetro, sendo os grupos definidos em permission_app/model.py.
+Neste vídeo é abordado o uso do decorator para a definição de permissões à diferentes áreas do site. Com @login_not_required define-se que determinada área não irá pedir a autenticação do usuário e com @Login_required o efeito contrário. Com o decorator @permissions() a restrição é feita somente a quem não pertence ao grupo especificado como parâmetro, sendo os grupos definidos em permission_app/model.py.
+
+**Aula 13 - Usuário Logado - App Engine e Python**
+
+Neste último video... demonstra-se o uso do decorator @login_required e a modificação das informações enviadas e obtidas quando o usuário está logado.
