@@ -27,3 +27,7 @@ obter um id e um token para adicionar na área administrativa do tekton. A cria�
 Por padrão o Tekton define que todo recurso deve estar seguro por padrão, a esta funcionalidade é dada o nome de White List. Caso não seja necessário a autenticação do usuáriom deve ser informada explicitamente o desejo para tal ação que é o que caracteriza o Cross Site Request Forgery - CSRF. 
 
 Para evitar que parâmetros sejam enviados diretamente na URL deve ser criado um token aleatóriamente que deve ser acrescentado a uma form no seu envio e por meio de uma cookie feita a conferência.
+
+**Aula 12.1 - Segurança - Permissões - App Engine e Python (continuação Aula 12)**
+
+Neste vídeo é abordado o uso do decorator para a definição de permissões à diferentes áreas do site. Com "@login_not_required" define-se que determinada área não irá pedir a autenticação do usuário. Com o decorator @permissions() a restrição é feita somente a quem não pertence ao grupo especificado como parâmetro, sendo os grupos definidos em permission_app/model.py.
