@@ -13,6 +13,17 @@ framework Tekton, além dos outros dois métodos possíveis de ser utilizado.
 
 **Aula 11.1 - Login sem Senha com Passwordless - App Engine e Python**
 
-Demonstração de como configurar o método de autenticação sem senha (necessita somente email) por meio do framework [https://pswdless.appspot.com](passwordless). Por meio
+Demonstração de como configurar o método de autenticação sem senha (necessita somente email) por meio do framework [passwordless](https://pswdless.appspot.com). Por meio
 do site você receberá um id e um token de aplicação que deverá ser configurado na área administrativa do framework Tekton. Assim será possível
 um usuário acessar o site sem a necessidade de senha, recebendo via email somente um url para validação por meio do passwordless.
+
+**Aula 11.2 - Login com Facebook - App Engine e Pytho**
+
+Desta vez, o detalhamento feito é sobre o método de autenticação por meio do Facebook. Igual ao passwordless é necessário
+obter um id e um token para adicionar na área administrativa do tekton. A criação deste token é feito por meio do área voltada para desenvolvedores no Facebook: [developers.facebook.com](https://developers.facebook.com/). Aqui ddeve ser criada uma aplicação Web onde também é solicitado o domínio do site onde o sistema de autenticação será utilizado, feito isto o id e o token são gerados e devem ser cadastrados na área administrativa do tekton. Pronto!
+
+**Aula 12 - Segurança - CSRF - App Engine e Python**
+
+Por padrão o Tekton define que todo recurso deve estar seguro por padrão, a esta funcionalidade é dada o nome de White List. Caso não seja necessário a autenticação do usuáriom deve ser informada explicitamente o desejo para tal ação que é o que caracteriza o Cross Site Request Forgery - CSRF. 
+
+Para evitar que parâmetros sejam enviados diretamente na URL deve ser criado um token aleatóriamente que deve ser acrescentado a uma form no seu envio e por meio de uma cookie feita a conferência.
